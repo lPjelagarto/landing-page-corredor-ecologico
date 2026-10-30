@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corredor Ecológico UNIMINUTO | Villavicencio</title>
+    <meta
+      name="description"
+      content="Plataforma web para la gestión ambiental, inventario de biodiversidad y monitoreo del Corredor Ecológico de UNIMINUTO Villavicencio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5" />
+            <path d="M20 28c-6-4-8-9-8-13 4 1 7 4 8 8 1-4 4-7 8-8 0 4-2 9-8 13Z" fill="currentColor" />
+            <path d="M20 12v16" stroke="#F4E7C5" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span>
+          <strong>Corredor Ecológico</strong>
+          <small>UNIMINUTO Villavicencio</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#problema">El reto</a>
+        <a href="#solucion">Plataforma</a>
+        <a href="#modulos">Módulos</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#cronograma">Ruta</a>
+        <a class="btn btn-sm" href="#comunidad">Participar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Sede San Juan Eudes · Orinoquia</p>
+          <h1>El campus como aula viva: biodiversidad que se ve, se registra y se cuida.</h1>
+          <p class="lead">
+            Una aplicación web para gestionar, caracterizar y visualizar de forma interactiva el
+            Corredor Ecológico de UNIMINUTO en Villavicencio: flora, fauna, senderos y
+            conservación en un solo lugar.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#solucion">Conocer la plataforma</a>
+            <a class="btn btn-ghost" href="#modulos">Ver módulos</a>
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt>Alcance</dt>
+              <dd>Gestión integral del corredor</dd>
+            </div>
+            <div>
+              <dt>Enfoque</dt>
+              <dd>Ciencia ciudadana + SIGA</dd>
+            </div>
+            <div>
+              <dt>Comunidad</dt>
+              <dd>Comunidad académica</dd>
+            </div>
+          </dl>
+        </div>
+        <figure class="hero-visual">
+          <img
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=80"
+            alt="Bosque húmedo con luz filtrada, evocando el corredor ecológico del campus"
+          />
+          <figcaption>
+            Inventario · Avistamientos · Senderos · Conservación
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="strip" aria-label="Pilares">
+        <article>
+          <h2>Catalogar</h2>
+          <p>Fichas taxonómicas de flora y fauna nativa de la Orinoquia.</p>
+        </article>
+        <article>
+          <h2>Mapear</h2>
+          <p>Senderos, puntos de conservación y coordenadas del campus.</p>
+        </article>
+        <article>
+          <h2>Participar</h2>
+          <p>Reportes de avistamientos y jornadas de reforestación o limpieza.</p>
+        </article>
+        <article>
+          <h2>Educar</h2>
+          <p>Difusión ambiental para apropiar el patrimonio natural universitario.</p>
+        </article>
+      </section>
+
+      <section class="section" id="problema">
+        <div class="section-head">
+          <p class="eyebrow">El reto</p>
+          <h2>Un corredor valioso, aún disperso en fichas y recuerdos.</h2>
+        </div>
+        <div class="split">
+          <div>
+            <p>
+              En el campus San Juan Eudes, el corredor ecológico es un aula viva de la biodiversidad
+              local. Aun así, gran parte de los registros de especies, avistamientos, recorridos y
+              planes de mantenimiento se gestiona en fichas físicas o en divulgación informal.
+            </p>
+            <p>
+              Sin una plataforma centralizada, se pierde visibilidad del patrimonio natural, se
+              dificulta el seguimiento de la conservación y se limita la participación de la
+              comunidad académica en ciencia ciudadana.
+            </p>
+            <blockquote>
+              ¿Cómo desarrollar una aplicación web que optimice el registro, el seguimiento de la
+              biodiversidad y la apropiación ambiental del corredor?
+            </blockquote>
+          </div>
+          <ul class="pain-list">
+            <li>
+              <span>01</span>
+              <div>
+                <strong>Información desarticulada</strong>
+                <p>Inventarios y mantenimientos sin un sistema único de consulta.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <strong>Baja visibilidad</strong>
+                <p>El patrimonio natural del campus no llega con claridad a toda la comunidad.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <strong>Participación limitada</strong>
+                <p>Estudiantes, investigadores y visitantes carecen de un canal digital de reporte.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="solucion">
+        <div class="section-head">
+          <p class="eyebrow">La plataforma</p>
+          <h2>Una herramienta web para ver, cuidar y enseñar el corredor.</h2>
+          <p>
+            El sistema estructura datos ecológicos complejos —coordenadas, taxonomía, avistamientos
+            y estados de conservación— en un entorno accesible, interactivo y seguro para la gestión
+            ambiental universitaria.
+          </p>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+              alt="Sendero entre vegetación"
+            />
+            <h3>Gestión ambiental</h3>
+            <p>
+              Centraliza puntos de conservación, áreas verdes y el control de jornadas de
+              reforestación o limpieza.
+            </p>
+          </article>
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=900&q=80"
+              alt="Ave tropical posada en una rama"
+            />
+            <h3>Inventario de biodiversidad</h3>
+            <p>
+              Catálogo geoespacial de especies con fichas taxonómicas, fotografías y seguimiento
+              continuo.
+            </p>
+          </article>
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=900&q=80"
+              alt="Paisaje natural con niebla"
+            />
+            <h3>Monitoreo del corredor</h3>
+            <p>
+              Visualización interactiva de senderos y avistamientos para docencia, investigación y
+              sostenibilidad.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="modulos">
+        <div class="section-head">
+          <p class="eyebrow">Módulos</p>
+          <h2>Interfaces intuitivas para la comunidad académica.</h2>
+        </div>
+        <div class="modules">
+          <article>
+            <h3>Consulta pública de especies</h3>
+            <p>Acceso rápido a fichas taxonómicas y al catálogo de flora y fauna del campus.</p>
+          </article>
+          <article>
+            <h3>Reporte de avistamientos</h3>
+            <p>Ciencia ciudadana: la comunidad aporta registros, fotos y observaciones de campo.</p>
+          </article>
+          <article>
+            <h3>Catálogo geoespacial</h3>
+            <p>Mapas de especies, senderos ecológicos y puntos de conservación con referencia espacial.</p>
+          </article>
+          <article>
+            <h3>Mantenimiento de áreas verdes</h3>
+            <p>Control preventivo, reforestación y seguimiento del estado de conservación.</p>
+          </article>
+          <article>
+            <h3>Jornadas ambientales</h3>
+            <p>Organización de limpiezas, siembras y actividades de apropiación del corredor.</p>
+          </article>
+          <article>
+            <h3>Difusión educativa</h3>
+            <p>Alertas de conservación y contenidos que acercan al estudiante a su entorno natural.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="objetivos">
+        <div class="section-head">
+          <p class="eyebrow">Para qué existe</p>
+          <h2>Objetivo: una gestión integral, caracterización ecológica y visualización interactiva.</h2>
+        </div>
+        <ol class="objectives">
+          <li>
+            <strong>Requerimientos reales</strong>
+            Sistematizar el registro de flora, fauna, puntos de conservación y senderos con docentes
+            y dinamizadores ambientales.
+          </li>
+          <li>
+            <strong>Arquitectura sólida</strong>
+            Diseñar el modelo de datos y los módulos de avistamiento, catálogo geoespacial y
+            mantenimiento, con integridad y disponibilidad de la información.
+          </li>
+          <li>
+            <strong>Experiencia pública</strong>
+            Construir consulta, reportes, jornadas y contenidos educativos en interfaces adaptables.
+          </li>
+          <li>
+            <strong>Validación en campus</strong>
+            Probar usabilidad, estabilidad e impacto pedagógico con estudiantes y docentes.
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" id="marco">
+        <div class="section-head">
+          <p class="eyebrow">Fundamentos</p>
+          <h2>Tres ideas que sostienen el proyecto.</h2>
+        </div>
+        <div class="cards three theory">
+          <article>
+            <h3>SIGA</h3>
+            <p>
+              Sistemas de Información Geográfica y Ambiental para recopilar, procesar y almacenar
+              datos ecológicos con referencia espacial y cualitativa.
+            </p>
+          </article>
+          <article>
+            <h3>Ciencia ciudadana</h3>
+            <p>
+              La comunidad enriquece la base de datos con avistamientos y genera sentido de
+              pertenencia: la tecnología se vuelve participativa.
+            </p>
+          </article>
+          <article>
+            <h3>Corredores urbanos</h3>
+            <p>
+              En Villavicencio, estos conectores biológicos sostienen fauna autóctona y flora nativa
+              de la región meta-orinocense.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="cronograma">
+        <div class="section-head">
+          <p class="eyebrow">Ruta 2027</p>
+          <h2>Desarrollo ágil, entrega continua de módulos útiles.</h2>
+          <p>
+            Se trabaja con XP y Scrum para responder a cambios de requisitos y validar en campo el
+            catálogo, los avistamientos, los mapas y la administración.
+          </p>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>Ene–Feb</span>
+            <h3>Requisitos e inventario</h3>
+            <p>Coordinación, levantamiento inicial de flora y fauna, y diseño de la interfaz.</p>
+          </article>
+          <article>
+            <span>Mar–May</span>
+            <h3>Construcción</h3>
+            <p>Front-end de catálogo y mapas, back-end y base de datos biológica.</p>
+          </article>
+          <article>
+            <span>Mar–Jun</span>
+            <h3>Pruebas</h3>
+            <p>Validación del sistema con la comunidad y observación en campo.</p>
+          </article>
+          <article>
+            <span>Jul</span>
+            <h3>Despliegue</h3>
+            <p>Entrega de la plataforma web al campus.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="resultados">
+        <div class="section-head">
+          <p class="eyebrow">Resultados esperados</p>
+          <h2>De la matriz de requisitos a una plataforma viva.</h2>
+        </div>
+        <div class="results">
+          <article>
+            <span>01</span>
+            <h3>Matriz de requerimientos y taxonomía</h3>
+            <p>Documento técnico del registro de flora, fauna y rutas ecológicas.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Base de datos relacional y geográfica</h3>
+            <p>Información biológica precisa, fotos y avistamientos estructurados.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Aplicación web funcional</h3>
+            <p>Consulta pública, reportes y gestión del corredor en un mismo entorno.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Protocolo de validación</h3>
+            <p>Pruebas de usabilidad, estabilidad y apropiación académica.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta" id="comunidad">
+        <div>
+          <p class="eyebrow light">Comunidad universitaria</p>
+          <h2>El corredor se cuida cuando se comparte el conocimiento.</h2>
+          <p>
+            Población: estudiantes, docentes, personal administrativo y gestores ambientales de la
+            sede San Juan Eudes. Articulado con el semillero MOVILSOFT, el proyecto aplica
+            innovación en software a un problema real de la Orinoquia.
+          </p>
+          <a class="btn btn-light" href="#inicio">Volver al inicio</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Corporación Universitaria Minuto de Dios</strong>
+        <p>Rectoría Orinoquia · Sede San Juan Eudes · Villavicencio (Meta)</p>
+        <p>Programa Tecnología en Desarrollo de Software</p>
+      </div>
+      <p class="legal">Plataforma de gestión ambiental del Corredor Ecológico institucional.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
